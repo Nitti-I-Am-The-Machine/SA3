@@ -1,0 +1,83 @@
+body {
+    background-color: #AF322F;
+    color: white;
+    letter-spacing: 0.5px;
+    text-align: center;
+    font-family: "PT Serif";
+    font-size: 20px;
+    
+    h1 {
+        font-family: "Merriweather";
+        color: #294C60; 
+    }
+    
+    h2 {
+        font-family: "PT Serif";
+    }
+
+    .destaque {
+        padding: 5px;
+        -moz-border-radius: 10px;
+        -webkit-border-radius: 10px;
+        border-radius: 10px;
+        -webkit-animation: 0.5s animacao 0.5s 1 normal forwards;
+        -moz-animation: 0.5s animacao 0.5s 1 normal forwards;
+        animation: 0.5s animacao 0.5s 1 normal forwards;
+        background: linear-gradient(90deg, #F4E285 50%, rgba(255, 255, 255, 0) 50%);
+        color: #294C60;
+        background-size: 200% 100%;
+        background-position: 100% 0;
+        
+    }
+    
+    .botao {
+        font-family: "PT Serif";
+        font-size: 30px;
+        text-decoration: underline;
+        text-align: center;
+        border: 2px solid;
+        border-radius: 10px;
+        background-color: transparent;
+        color: #294C60;
+        padding: 15px 32px;
+        cursor: pointer;
+        transition-duration: 1s;
+        margin-right: 75px;
+        margin-left: 75px;
+    }
+
+    .botao:hover {
+        background-color: #F4E285;
+        color: #8CB369;
+    }
+    
+}
+
+@-webkit-keyframes animacao {
+    to {
+        background-position: 0 0;
+        color: #8CB369;
+    }
+}
+
+@keyframes animacao {
+    to {
+        background-position: 0 0;
+        color: #8CB369;
+    }
+}
+
+img {
+    border: 5px solid #F4E285;
+    border-style: outset;
+    height: 300px;
+    width: 200px;
+    margin-top: 75px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.imgdesc {
+    color: #294C60;
+    margin-bottom: 75px;
+}

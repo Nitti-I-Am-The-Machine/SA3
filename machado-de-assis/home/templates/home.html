@@ -1,0 +1,22 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Machado de Assis</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Merriweather|PT+Serif">
+    <link rel="stylesheet" href="{% static 'home.css' %}">
+</head>
+<body>
+    <img src="{% static 'Machado_de_Assis_Retrato.jpg' %}">
+    <h1> <mark class="destaque"> Joaquim Maria </mark>
+        <p> <mark class="destaque"> Machado de Assis </mark> </h1> 
+    <h2> Bem-vindo! Clique em um dos botões abaixo para saber mais sobre o 
+        autor! </h2>
+    
+    <a href="/sobre"> <button class="botao"> Sobre o Autor </button> </a> 
+    <a href="/bibliografia"> <button class="botao"> Principais Obras </button> </a>
+        
+</body>
+</html>
